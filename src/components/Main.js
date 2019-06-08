@@ -76,7 +76,7 @@ class Main extends React.Component {
           <h1>
             Personal Website {' '}
             <a href="#" className="icon fa-external link" target="_blank"></a>
-            <a href="https://github.com/mattfazza/" className="icon fa-github" target="_blank"></a>
+            <a href="https://github.com/mattfazza/Mobile-First" className="icon fa-github" target="_blank"></a>
             {' '}
             <a href="https://jolly-brown-c5e00f.netlify.com/" className="icon fa-external-link" target="_blank"></a>
           </h1>
