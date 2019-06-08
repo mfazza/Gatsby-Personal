@@ -23,9 +23,9 @@ class Main extends React.Component {
           {close}
         </article>
 
-        <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
-          <h2 className="major">Work</h2>
-          <span className="image main"><img src={pic02} alt="" /></span>
+        <article id="projects" className={`${this.props.article === 'projects' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
+          <h2 className="major">Projects</h2>
+          <p>These are just a small sample of my work.  There are 20+ projects on my <a href="https://www.github.com/mattfazza" target="_blank">Github</a> so please feel free to poke around there!</p>
           <h1>
             Anagramma {' '}
             <a href="https://github.com/mattfazza/Anagramma" className="icon fa-github" target="_blank"></a>
@@ -50,14 +50,25 @@ class Main extends React.Component {
           <h1>
             Weather {' '}
             <a href="#" className="icon fa-external link" target="_blank"></a>
+            <a href="https://github.com/mattfazza/Weather" className="icon fa-github" target="_blank"></a>
+            {' '}
+            <a href="https://iltempo.herokuapp.com/" className="icon fa-external-link" target="_blank"></a>
+
           </h1>
           <p>This is one of my first complete web apps built with React.  It's a simple weather app that calls an API to inform the weather conditions on the location seached.</p>
 
           <h1>
+            Ethereum Vault {' '}
+            <a href="https://github.com/mattfazza/Code/tree/master/Vault" className="icon fa-github" target="_blank"></a>
+          </h1>
+          <p>An ethereum wallet that transfers all your ether to another wallet if it gets breached.  After that, it destroys itself.</p>
+
+          <h1>
             Personal Website {' '}
             <a href="#" className="icon fa-external link" target="_blank"></a>
+            <a href="https://github.com/mattfazza/" className="icon fa-github" target="_blank"></a>
           </h1>
-          <p>While this website uses Gatsby (which is built on top of React), the previous version of my old website is completely made with React, Bootstrap, and React-Material</p>
+          <p>While this website uses Gatsby (which is built on top of React), the previous version of this website is completely made with React, Bootstrap, and React-Material</p>
 
 
 
@@ -72,20 +83,22 @@ class Main extends React.Component {
 
         <article id="career" className={`${this.props.article === 'career' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
           <h2 className="major">Career</h2>
-          <p>My most recent resume can be found here</p>
+          <p>My most recent resume can be found <a href="" target="_blank">here</a>.</p>
 
           <p>I have:
             <ul>
+              <li>Written many React Front-ends and apps, a few portfolios, and a mobile-first website.</li>
               <li>Lead a data engineering team, conducting code reviews, making high-level architectural decisions, and interfacing QA and the Engineering team.</li>
               <li>Created several APIs using Node.js, including a lot of asynchronous logic between servers and databases.</li>
-              <li>Proven the use of blockchain as a feasible business route for tracking produce.</li>
-              <li>Written good quality documentation (an example can be seen here).</li>
+              <li>Proven the use of blockchain as a feasible business route for supply chain.</li>
+              <li>Written good quality documentation (an example can be seen <a href="https://github.com/mattfazza/anagramma/blob/master/README.md" target="_blank">here</a>).</li>
             </ul>
           </p>
 
           <p>I want to:
             <ul>
               <li>Master full stack web</li>
+              <li>Present at conferences</li>
               <li>Learn more about and work more with data to create beautiful data-driven applications</li>
               <li>Help other developers learn and bring them the same joy I get from technology.</li>
               <li>Work with diverse teams, and learn a lot from them.</li>
@@ -104,31 +117,20 @@ class Main extends React.Component {
           {close}
         </article>
 
+        <article id="blog" className={`${this.props.article === 'blog' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
+          <h2 className="major">blog</h2>
+          <p>I've been wating to blog for a while and this is where I'm going to write.  I'm working on a presentation for my local Node.js meetup, and a blog post will be up soon! </p>
+          {close}
+        </article>
+
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
-            <div className="field half first">
-              <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name" />
-            </div>
-            <div className="field half">
-              <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
-            </div>
-            <div className="field">
-              <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4"></textarea>
-            </div>
-            <ul className="actions">
-              <li><input type="submit" value="Send Message" className="special" /></li>
-              <li><input type="reset" value="Reset" /></li>
-            </ul>
-          </form>
+          <p>The best way to contact me is through email.  Feel free to email me at matthewfazza@yahoo.com.  I'm also on social media, feel free to contact in any of the links below!</p>
           <ul className="icons">
-            <li><a href="#" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
-            <li><a href="#" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
-            <li><a href="#" className="icon fa-instagram"><span className="label">Instagram</span></a></li>
-            <li><a href="#" className="icon fa-github"><span className="label">GitHub</span></a></li>
+            <li><a href="https://twitter.com/matthewfazza" className="icon fa-twitter" target="_blank"><span className="label" >Twitter</span></a></li>
+            <li><a href="https://www.linkedin.com/in/mattfazza" className="icon fa-linkedin" target="_blank"><span className="label" >LinkedIn</span></a></li>
+            <li><a href="https://www.instagram.com/matthewfazza" className="icon fa-instagram" target="_blank"><span className="label" >Instagram</span></a></li>
+            <li><a href="https://www.github.com/mattfazza" className="icon fa-github" target="_blank"><span className="label" >GitHub</span></a></li>
           </ul>
           {close}
         </article>
