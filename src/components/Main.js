@@ -49,13 +49,23 @@ class Main extends React.Component {
 
           <h1>
             Weather {' '}
-            <a href="#" className="icon fa-external link" target="_blank"></a>
+            <a href="https://iltempo.herokuapp.com" className="icon fa-external link" target="_blank"></a>
             <a href="https://github.com/mattfazza/Weather" className="icon fa-github" target="_blank"></a>
             {' '}
             <a href="https://iltempo.herokuapp.com/" className="icon fa-external-link" target="_blank"></a>
 
           </h1>
           <p>This is one of my first complete web apps built with React.  It's a simple weather app that calls an API to inform the weather conditions on the location seached.</p>
+
+          <h1>
+            To-do {' '}
+            <a href="#" className="icon fa-external link" target="_blank"></a>
+            <a href="https://github.com/mattfazza/Weather" className="icon fa-github" target="_blank"></a>
+            {' '}
+            <a href="https://practical-carson-154b7f.netlify.com/" className="icon fa-external-link" target="_blank"></a>
+
+          </h1>
+          <p>I built this little to-do list app while learning React states.  It's simple, but it allowed me to grow a lot.</p>
 
           <h1>
             Ethereum Vault {' '}
@@ -67,8 +77,10 @@ class Main extends React.Component {
             Personal Website {' '}
             <a href="#" className="icon fa-external link" target="_blank"></a>
             <a href="https://github.com/mattfazza/" className="icon fa-github" target="_blank"></a>
+            {' '}
+            <a href="https://jolly-brown-c5e00f.netlify.com/" className="icon fa-external-link" target="_blank"></a>
           </h1>
-          <p>While this website uses Gatsby (which is built on top of React), the previous version of this website is completely made with React, Bootstrap, and React-Material</p>
+          <p>While this website uses Gatsby(which is built on top of React), the previous version of this website is completely made with React, Bootstrap, and React-Material</p>
 
 
 
@@ -83,7 +95,7 @@ class Main extends React.Component {
 
         <article id="career" className={`${this.props.article === 'career' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
           <h2 className="major">Career</h2>
-          <p>You can download my most recent resume <a href="https://github.com/mattfazza/Gatsby-Personal/blob/master/src/images/most_recent_resume%5BMattFazza%5D.docx?raw=true" target="_blank">here</a>.</p>
+          <p>You can download my most recent resume <a href="https://github.com/mattfazza/Gatsby-Personal/blob/master/src/images/most_recent_resume" target="_blank">here</a>.</p>
 
           <p>I have:
             <ul>
