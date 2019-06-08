@@ -83,7 +83,7 @@ class Main extends React.Component {
 
         <article id="career" className={`${this.props.article === 'career' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
           <h2 className="major">Career</h2>
-          <p>My most recent resume can be found <a href="" target="_blank">here</a>.</p>
+          <p>You can download my most recent resume <a href="https://github.com/mattfazza/Gatsby-Personal/blob/master/src/images/most_recent_resume%5BMattFazza%5D.docx?raw=true" target="_blank">here</a>.</p>
 
           <p>I have:
             <ul>
