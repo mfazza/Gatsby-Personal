@@ -2,8 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const Footer = (props) => (
-    <footer id="footer" style={props.timeout ? {display: 'none'} : {}}>
-        <p className="copyright">&copy; Gatsby Starter - Dimension. Design: <a href="https://html5up.net">HTML5 UP</a>. Built with: <a href="https://www.gatsbyjs.org/">Gatsby.js</a></p>
+    <footer id="footer" style={props.timeout ? { display: 'none' } : {}}>
+        <p className="copyright">&copy; Made with <span role="img" aria-label="sheep">❤️</span> with <a href="https://www.gatsbyjs.org/">Gatsby.js</a>.  Template design comes from: <a href="https://html5up.net">HTML5 UP</a></p>
     </footer>
 )
 
