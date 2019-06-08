@@ -4,6 +4,7 @@ import PropTypes from 'prop-types'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
+import profilepic from '../images/profile.jpg'
 
 class Main extends React.Component {
   render() {
@@ -15,12 +16,12 @@ class Main extends React.Component {
 
         <article id="aboutme" className={`${this.props.article === 'aboutme' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
           <h2 className="major">About Me</h2>
-          <span className="image main"><img src={pic01} alt="" /></span>
+          <span className="image main"><img src={profilepic} /></span>
           <p>Hi, I'm Matt and I'm a software engineer based out of Denver, CO.  I started writing code in 2013 and since then, I've been helping companies and costumers with my problem solving skills. </p>
 
           <p>By the time I finished my Software Engineering degree at UT Dallas, I was already working in the industry.  My career started with Blockchain where I implemented a supply chain decentralized application on the Ethereum blockchain in partnership with a consulting firm; when that work was over, I joined Fidelity investments where I worked with full stack web, lead a data engineering team, and worked a bit with DevOps and automation.   Since leaving my position at Fidelity Investments, I've been focused on contributing to open-source software and asserting myself as a full stack engineer.  I am the creator of the API toolkit Anagramma, and a contributor to reactdenver.com. </p>
 
-          <p>When I'm not writing code or crunching numbers, I'm focused on my health, both mental and physical.  I usually find balance between all the hours I spend on my computer by running with my dog, Daisy; reading books, cooking and eating vegan food, or advocating for mental health, and public transportation.  I'm a proponent of remote work, avocados, and positive ways to use technology!</p>
+          <p>When I'm not writing code or crunching numbers, I'm focused on my health, both mental and physical.  I usually find balance between all the hours I spend on my computer by running with my dog, Daisy; reading books, cooking and eating vegan food, or advocating for mental health, and public transportation.  I'm a proponent of remote work, avocados, and positive ways to use technology!  Go to <a href='/page-2'>Second Page</a></p>
           {close}
         </article>
 
