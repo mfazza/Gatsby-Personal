@@ -19,7 +19,7 @@ class Main extends React.Component {
           <span className="image main"><img src={profilepic} /></span>
           <p>Hi, I'm Matt and I'm a software engineer based out of Denver, CO.  I started writing code in college in 2013 and since then, I've been helping companies and costumers with my problem solving skills. </p>
 
-          <p>When I'm not writing code or crunching numbers, I'm focused on my health, both mental and physical.  I usually find balance between all the hours I spend on my computer by running with my dog, Daisy; reading books, playing music, cooking and eating vegan food, or advocating for mental health, LGBTQ rights, and public transportation.  I'm a proponent of remote work, avocados, and positive ways to use technology!  Go to <a href='/page-2'>Second Page</a></p>
+          <p>When I'm not writing code or crunching numbers, I'm focused on my health, both mental and physical.  I usually find balance between all the hours I spend on my computer by running with my dog, Daisy; reading books, playing music, cooking and eating vegan food, or advocating for mental health, LGBTQ rights, and public transportation.  I'm a proponent of remote work, avocados, and positive ways to use technology!</p>
           {close}
         </article>
 
