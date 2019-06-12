@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { Link } from 'gatsby';
 
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
@@ -131,7 +132,9 @@ class Main extends React.Component {
 
         <article id="blog" className={`${this.props.article === 'blog' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
           <h2 className="major">blog</h2>
-          <p>I've been wating to blog for a while and this is where I'm going to write.  I'm working on a presentation for my local Node.js meetup, and a blog post will be up soon! </p>
+          <p>
+            <Link to="/blog1">Welcome to Denver</Link> - a simple reflection on how my experience trying to find a position in Denver has been.
+          </p>
           {close}
         </article>
 
