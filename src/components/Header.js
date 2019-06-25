@@ -5,7 +5,7 @@ import profilepic from '../images/profile.jpg'
 const Header = (props) => (
     <header id="header" style={props.timeout ? { display: 'none' } : {}}>
         <div className="logo">
-            <span className="icon fa-code" title="I'm going to be busy until Monday.  Expect an answer then!"></span>
+            <span className="icon fa-code" title="I'm back from vacation and can't wait to work on some issues on Github!"></span>
         </div>
         <div className="content">
             <div className="inner">
