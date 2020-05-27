@@ -18,9 +18,7 @@ class Main extends React.Component {
         <article id="aboutme" className={`${this.props.article === 'aboutme' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
           <h2 className="major">About Me</h2>
           <span className="image main"><img src={profilepic} /></span>
-          <p>Hi, I'm Matt and I'm a software engineer based out of Denver, CO.  I started writing code in college in 2013 and since then, I've been helping companies and costumers with my problem solving skills. </p>
-
-          <p>When I'm not writing code or crunching numbers, I'm focused on my health, both mental and physical.  I usually find balance between all the hours I spend on my computer by running with my dog, Daisy; reading books, playing music, cooking and eating vegan food, or advocating for mental health, LGBTQ rights, and public transportation.  I'm a proponent of remote work, avocados, and positive ways to use technology!</p>
+          <p>Hi, I'm Matt and I'm a software engineer based out of Denver, CO.  I started writing code in college in 2013 and since then, I've been helping companies and costumers with my problem solving skills. I'm also a runner, a musician, an mtg player, and a cyclist.  I'm known for my tofu scramble, advocating for LGBTQA+ rights, living among lots of plants.</p>
           {close}
         </article>
 
@@ -33,7 +31,7 @@ class Main extends React.Component {
             {' '}
             <a href="https://anagramma.herokuapp.com" className="icon fa-external-link" target="_blank"></a>
           </h1>
-          <p>A full fledged API toolkit to retrieve words, anagrams, and statistics about them.  I wrote the Node server with Express routes, and set up the MongoDB instance with Atlas.  I also wrote the documentation, posted the issues, and created the trello board. The tests in Mocha/Chai were also written by me.  I'm in the process of creating the React front-end with D3.js presentations, and I've decided to make this into an open-source project.  </p>
+          <p>A full fledged API toolkit to retrieve words, anagrams, and statistics about them.  I wrote the Node server with Express routes, and set up the MongoDB instance with Atlas.  I also wrote the documentation, posted the issues, and created the trello board. The tests in Mocha/Chai were also written by me.  I've decided to make this into an open-source project.  </p>
 
 
           <h1>
@@ -81,7 +79,7 @@ class Main extends React.Component {
             {' '}
             <a href="https://jolly-brown-c5e00f.netlify.com/" className="icon fa-external-link" target="_blank"></a>
           </h1>
-          <p>While this website uses Gatsby(which is built on top of React), the previous version of this website is completely made with React, Bootstrap, and React-Material</p>
+          <p>While this website uses Gatsby, the previous version of this website is completely made with React, Bootstrap, and React-Material</p>
 
 
 
@@ -100,7 +98,10 @@ class Main extends React.Component {
 
           <p>I have:
             <ul>
-              <li>Written many React Front-ends and apps, a few portfolios, and a mobile-first website.</li>
+              <li>Been the lead engineer in multiple end-to-end solutions involving data work, backend work, and infra-structure work.</li>
+              <li>Written, deployed, and debugged serverless APIs build with AWS Lambda/Serverless/Cloudformation.</li>
+              <li>Generated many analysis using SQL/DynamoDB, Python/Pandas, and AWS Quicksight.</li>
+              <li>Helped architect a platform rebuild from an infra-structure and data perspective.</li>
               <li>Lead a data engineering team, conducting code reviews, making high-level architectural decisions, and interfacing QA and the Engineering team.</li>
               <li>Created several APIs using Node.js, including a lot of asynchronous logic between servers and databases.</li>
               <li>Proven the use of blockchain as a feasible business route for supply chain.</li>
@@ -110,41 +111,40 @@ class Main extends React.Component {
 
           <p>I want to:
             <ul>
-              <li>Master full stack web</li>
-              <li>Present at conferences</li>
-              <li>Learn more about and work more with data to create beautiful data-driven applications</li>
+              <li>Learn more about architecture patterns in regards to systems and data</li>
+              <li>Tackle complex problems (coding, mathematics, and architecture)</li>
               <li>Help other developers learn and bring them the same joy I get from technology.</li>
               <li>Work with diverse teams, and learn a lot from them.</li>
             </ul>
           </p>
 
           <h1>Career Bio</h1>
-          <p>By the time I finished my Software Engineering degree at UT Dallas, I was already working in the industry.  My career started with Blockchain where I implemented a decentralized supply chain application on the Ethereum blockchain in partnership with a consulting firm; when that work was over, I joined Fidelity investments where I worked with full stack web, lead a data engineering team, and worked a bit with DevOps and automation.   Since leaving my position at Fidelity Investments, I've been focused on contributing to open-source software and asserting myself as a full stack engineer.  I am the creator of the API toolkit Anagramma, and a contributor to reactdenver.com.</p>
+          <p>By the time I finished my Software Engineering degree at UT Dallas, I was already working in the industry.  My career started with Blockchain where I implemented a decentralized supply chain application on the Ethereum blockchain in partnership with a consulting firm; when that work was over, I joined Fidelity investments where I worked with full stack web, lead a data engineering team, and worked a bit with DevOps and automation.   Since leaving my position at Fidelity Investments, I've been working at Apostrophe creating the health plan that can save America.  At Apostrophe I work as a Data/Backend Engineer, but also wear many other hats.</p>
 
-          <p>I have dealt with a lot of different tech throughout the years.  My favorite languages are JavaScript, and Python.  MERN is my favorite stack, and I'm a huge MongoDB nerd.  Despite my preferences, I like to remain tech agnostic.  As long as the project/product is interesting, I'm in.  Lately, I'm putting some time into D3 and Svelte.</p>
+          <p>I have dealt with a lot of different tech throughout the years.  Despite my preferences, I like to remain tech agnostic.  As long as the project/product is interesting, I'm in.  Lately, I'm putting some time into AWS Glue, Athena, and Quicksight.</p>
 
-          <p>I have also found that I enjoy working remotely.  Distance is not a big deal for me, and I can always create inclusive spaces that foster collaboration even if we're not face-to-face.</p>
+          <p>I have also found that I'm good at working remotely.  Distance is not a big deal for me, and I can always create inclusive spaces that foster collaboration even if we're not face-to-face.</p>
 
 
 
           {close}
         </article>
 
-        <article id="blog" className={`${this.props.article === 'blog' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
+        {/* <article id="blog" className={`${this.props.article === 'blog' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
           <h2 className="major">blog</h2>
           <p>
             <Link to="/blog1">Welcome to Denver</Link> - a simple reflection on how my experience trying to find a position in Denver has been.
           </p>
           {close}
-        </article>
+        </article> */}
 
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
           <h2 className="major">Contact</h2>
-          <p>The best way to contact me is through email.  Feel free to email me at matthewfazza@yahoo.com.  I'm also on social media, feel free to contact in any of the links below!</p>
+          <p>The best way to contact me is through email.  Feel free to email me at matthewfazza@yahoo.com.  I'm also on the links below!</p>
           <ul className="icons">
-            <li><a href="https://twitter.com/matthewfazza" className="icon fa-twitter" target="_blank"><span className="label" >Twitter</span></a></li>
+            {/* <li><a href="https://twitter.com/matthewfazza" className="icon fa-twitter" target="_blank"><span className="label" >Twitter</span></a></li> */}
             <li><a href="https://www.linkedin.com/in/mattfazza" className="icon fa-linkedin" target="_blank"><span className="label" >LinkedIn</span></a></li>
-            <li><a href="https://www.instagram.com/matthewfazza" className="icon fa-instagram" target="_blank"><span className="label" >Instagram</span></a></li>
+            {/* <li><a href="https://www.instagram.com/matthewfazza" className="icon fa-instagram" target="_blank"><span className="label" >Instagram</span></a></li> */}
             <li><a href="https://www.github.com/mattfazza" className="icon fa-github" target="_blank"><span className="label" >GitHub</span></a></li>
           </ul>
           {close}
