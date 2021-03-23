@@ -18,7 +18,7 @@ class Main extends React.Component {
         <article id="aboutme" className={`${this.props.article === 'aboutme' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
           <h2 className="major">About Me</h2>
           <span className="image main"><img src={profilepic} /></span>
-          <p>Hi, I'm Matt and I'm a software engineer based out of Denver, CO.  I started writing code in college in 2013 and since then, I've been helping companies and costumers with my problem solving skills. I'm also a runner, a musician, an mtg player, and a cyclist.  I'm known for my tofu scramble, advocating for LGBTQA+ rights, living among lots of plants.</p>
+          <p>Hi, I'm Matt and I'm a software engineer based out of Seattle, WA.  I started writing code in college in 2013 and since then, I've been helping companies and costumers with my problem solving skills.  I'm known for riding Vespas and making the best tofu scramble.</p>
           {close}
         </article>
 
@@ -119,7 +119,7 @@ class Main extends React.Component {
           </p>
 
           <h1>Career Bio</h1>
-          <p>By the time I finished my Software Engineering degree at UT Dallas, I was already working in the industry.  My career started with Blockchain where I implemented a decentralized supply chain application on the Ethereum blockchain in partnership with a consulting firm; when that work was over, I joined Fidelity investments where I worked with full stack web, lead a data engineering team, and worked a bit with DevOps and automation.   Since leaving my position at Fidelity Investments, I've been working at Apostrophe creating the health plan that can save America.  At Apostrophe I work as a Data/Backend Engineer, but also wear many other hats.</p>
+          <p>By the time I finished my Software Engineering degree at UT Dallas, I was already working in the industry.  My career started with Blockchain where I implemented a decentralized supply chain application on the Ethereum blockchain in partnership with a consulting firm; when that work was over, I joined Fidelity investments where I worked with full stack web, lead a data engineering team, and worked a bit with DevOps and automation.   When I left my position at Fidelity Investments, I started working at Apostrophe creating the health plan that can save America.  At Apostrophe I worked as a Data/Backend Engineer, but also wore many other hats.  I left Apostrophe in November 2019 to join Sage Bionetworks as a Data Engineer.  I currently work as part of their Systems Biology Infrastructure team with data infrastructure related tasks.</p>
 
           <p>I have dealt with a lot of different tech throughout the years.  Despite my preferences, I like to remain tech agnostic.  As long as the project/product is interesting, I'm in.  Lately, I'm putting some time into AWS Glue, Athena, and Quicksight.</p>
 
